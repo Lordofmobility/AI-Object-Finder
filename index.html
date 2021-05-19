@@ -17,16 +17,20 @@
 
 <body background="background.jpg">
     <center>
-        <h1 class="btn btn-info heading">AI Object Finder</h1>
+        <h1 class="btn btn-info heading">AI Object Finder
         <br>
         <span class="note">Type the object that you want to identify in the text input given below and then you can
             either hold a different object in front of the webcam or the object you want my website to identify. Please
-            enter only one object</span>
+            enter only one object</span></h1>
+        <br>`
+        <br>
         <br>
         <input id="object_identification" type="text" value="Object needed to be identified">
         <br>
-        <button onclick="start()" class="btn btn-danger" id="start">Start identifying</button>
         <br>
-        <button class="btn btn-warning" id="indentification"></button>
+        <button onclick="start_identifying()" class="btn btn-danger" id="start">Start identifying</button>
+        <br>
+        <br>
+        <button class="btn btn-warning" id="status">Status:</button>
     </center>
 </body>
