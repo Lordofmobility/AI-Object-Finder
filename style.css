@@ -28,3 +28,7 @@ canvas {
     margin-top: 90px;
     box-shadow: 5px 5px 5px white;
 }
+
+.note {
+    font-size: 15;
+}

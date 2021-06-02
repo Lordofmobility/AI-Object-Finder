@@ -1,5 +1,5 @@
 video = ""
-object = ""
+objects = ""
 status = ""
 object_entered = ""
 
